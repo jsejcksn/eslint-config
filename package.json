@@ -1,0 +1,27 @@
+{
+  "name": "@jsejcksn/eslint-config",
+  "version": "0.0.1",
+  "description": "ESLint shareable config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsejcksn/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "shareable config",
+    "config"
+  ],
+  "author": "Jesse Jackson <npm@jcksn.org> (http://jcksn.org)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsejcksn/eslint-config/issues"
+  },
+  "homepage": "https://github.com/jsejcksn/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">=3.9.0"
+  }
+}
