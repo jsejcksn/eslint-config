@@ -1,6 +1,6 @@
 {
   "name": "@jsejcksn/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint shareable config",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,9 @@
     "url": "https://github.com/jsejcksn/eslint-config/issues"
   },
   "homepage": "https://github.com/jsejcksn/eslint-config#readme",
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
   "peerDependencies": {
     "eslint": ">=3.9.0"
   }
