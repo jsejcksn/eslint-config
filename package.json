@@ -1,6 +1,6 @@
 {
   "name": "@jsejcksn/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ESLint shareable config",
   "main": "index.js",
   "scripts": {
