@@ -15,6 +15,7 @@
     "no-console": [0],
     "quotes": [2, "single"],
     "semi": [2, "always"],
-    "space-before-function-paren": [2, "always"]
+    "space-before-function-paren": [2, "always"],
+    "space-infix-ops": [2]
   }
 }
