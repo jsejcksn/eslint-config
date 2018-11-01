@@ -15,7 +15,7 @@
     "shareable config",
     "config"
   ],
-  "author": "Jesse Jackson <npm@jcksn.org> (http://jcksn.org)",
+  "author": "Jesse Jackson <npm@jcksn.org> (https://jcksn.org)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jsejcksn/eslint-config/issues"

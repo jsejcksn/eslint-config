@@ -1,6 +1,6 @@
 # eslint-config
 
-My [ESLint](http://eslint.org/) [shareable config](http://eslint.org/docs/developer-guide/shareable-configs) so that you can write JavaScript in the same style that I do
+My [ESLint](https://eslint.org/) [shareable config](https://eslint.org/docs/developer-guide/shareable-configs) so that you can write JavaScript in the same style that I do
 
 ## Installation
 
