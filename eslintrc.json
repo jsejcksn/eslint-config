@@ -2,20 +2,22 @@
   "env": {
     "browser": true,
     "commonjs": true,
-    "es6": true,
     "node": true
   },
   "extends": "eslint:recommended",
   "parserOptions": {
+    "ecmaFeatures": {
+      "impliedStrict": true
+    },
+    "ecmaVersion": 9,
     "sourceType": "module"
   },
   "rules": {
-    "indent": [2, 2, {"SwitchCase": 1}],
-    "linebreak-style": [2, "unix"],
-    "no-console": [0],
-    "quotes": [2, "single"],
-    "semi": [2, "always"],
-    "space-before-function-paren": [2, "always"],
-    "space-infix-ops": [2]
+    "indent": ["error", 2, {"SwitchCase": 1}],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single", {"allowTemplateLiterals": true}],
+    "semi": ["error", "always"],
+    "space-before-function-paren": ["error", "always"],
+    "space-infix-ops": ["error"]
   }
 }
