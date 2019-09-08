@@ -147,7 +147,7 @@
       {"initialized": "never", "uninitialized": "consecutive"}
     ],
     "operator-assignment": ["error", "always"],
-    "operator-linebreak": ["error", "before"],
+    "operator-linebreak": ["error", "before", {"overrides": {"=": "after"}}],
     "padded-blocks": ["error", "never"],
     "prefer-object-spread": "error",
     "quote-props": ["error", "as-needed"],
