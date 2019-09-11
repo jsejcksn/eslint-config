@@ -118,7 +118,7 @@
       "allowClassStart": true
       }],
     "lines-between-class-members": ["error", "always"],
-    "max-len": ["error", {"code": 80}],
+    "max-len": ["warn", {"code": 80}],
     "max-statements-per-line": ["error", {"max": 1}],
     "multiline-ternary": ["error", "always-multiline"],
     "new-parens": ["error", "always"],
