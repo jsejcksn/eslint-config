@@ -33,7 +33,7 @@
     "no-labels": "error",
     "no-lone-blocks": "error",
     "no-loop-func": "error",
-    "no-magic-numbers": "error",
+    "no-magic-numbers": ["error", {"ignore": [-1, 0, 1]}],
     "no-multi-spaces": "error",
     "no-multi-str": "error",
     "no-new": "error",
@@ -118,7 +118,10 @@
       "allowClassStart": true
       }],
     "lines-between-class-members": ["error", "always"],
-    "max-len": ["warn", {"code": 80}],
+    "max-len": [
+      "warn",
+      {"code": 80, "ignoreStrings": true, "ignoreTemplateLiterals": true}
+    ],
     "max-statements-per-line": ["error", {"max": 1}],
     "multiline-ternary": ["error", "always-multiline"],
     "new-parens": ["error", "always"],
@@ -186,11 +189,7 @@
     "object-shorthand": ["error", "always"],
     "prefer-arrow-callback": "error",
     "prefer-const": "error",
-    "prefer-destructuring": [
-      "error",
-      {"array": true, "object": true},
-      {"enforceForRenamedProperties": true}
-    ],
+    "prefer-destructuring": ["error", {"array": false, "object": true}],
     "prefer-numeric-literals": "error",
     "prefer-rest-params": "error",
     "prefer-spread": "error",
