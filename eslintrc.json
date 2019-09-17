@@ -63,13 +63,9 @@
     "no-warning-comments": ["warn", {
       "terms": [
         "todo",
-        "todo:",
         "to-do",
-        "to-do:",
         "to do",
-        "to do:",
         "fix",
-        "fix:",
         "fixme",
         "xxx"
       ],
