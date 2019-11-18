@@ -25,6 +25,6 @@
     "extends": "./index.js"
   },
   "peerDependencies": {
-    "eslint": "^6.3.0"
+    "eslint": "^6.6.0"
   }
 }
