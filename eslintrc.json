@@ -1,9 +1,14 @@
 {
-  "env": {"es6": true},
+  "env": {
+    "es2020": true,
+    "shared-node-browser": true
+  },
   "extends": "eslint:recommended",
   "parserOptions": {
-    "ecmaFeatures": {"impliedStrict": true},
-    "ecmaVersion": 2019,
+    "ecmaFeatures": {
+      "impliedStrict": true
+    },
+    "ecmaVersion": 2020,
     "sourceType": "module"
   },
   "rules": {
