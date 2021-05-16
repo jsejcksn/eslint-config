@@ -1,6 +1,6 @@
 {
   "env": {
-    "es2020": true,
+    "es2021": true,
     "shared-node-browser": true
   },
   "extends": "eslint:recommended",
@@ -8,7 +8,7 @@
     "ecmaFeatures": {
       "impliedStrict": true
     },
-    "ecmaVersion": 2020,
+    "ecmaVersion": 2021,
     "sourceType": "module"
   },
   "rules": {
